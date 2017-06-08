@@ -1,0 +1,246 @@
+body{
+    font-family: 'Droid Serif';
+    background: #FFFFFF;
+    padding-bottom: 0px;
+}
+
+#navigationWrapper {
+    background: #185C74;
+    height: 75px;
+}
+
+#myNavbar {
+    padding-top: 20px;
+}
+
+#footer {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    background: #185C74;
+}
+
+#footer .row {
+    background: #185C74;
+}
+
+#footer h2{
+    font-size: 22px;
+    font-family: 'Droid Sans';
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../images/loading.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+#headerImage {
+  background:url(../images/header.jpg) center center;
+  background-size:cover;
+  height:500px;
+  position: relative;
+}
+
+.title h1{
+    font-family: 'Droid Sans';
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    color: white;
+}
+
+#headerImageArt {
+  background:url(../images/header_kunst.jpg) center center;
+  background-size:cover;
+  height:500px;
+  position: relative;
+}
+
+.row{
+    background: #ffffff;
+}
+
+.slider-size {
+    height: 500px; /* This is your slider height */
+}
+
+.button-link{
+    color: #185C74;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Droid Sans';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.button-link:hover{
+    text-decoration: underline;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.description{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#back-top {
+    position: fixed;
+    bottom: 10px;
+    margin-left: 10px;
+    opacity: 0.3;
+}
+
+#back-top:hover{
+    opacity: 0.8;
+}
+
+#back-top a {
+    width: 60px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover {
+    color: #000;
+}
+
+#back-top span {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-bottom: 7px;
+    background-color: #DDD;
+
+    /* rounded corners */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+#back-top a:hover span {
+    background-color: #999;
+}
+
+#mainContent {
+  padding-top: 40px;
+}
+
+.container h2{
+    font-size: 35px;
+    color: #185C74;
+    font-family: 'Droid Sans';
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.audio_description {
+  margin-left: 10px;
+}
+
+.container p{
+    font-size: 14px;
+    color: #185C74;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.audio_player h3 {
+  font-size: 16px;
+  color: #185C74;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+
+}
+
+#navigation{
+    height: 80px;
+    background: #185C74;
+    padding-top: 45px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu li a{
+    color: white;
+    display:block;
+    float: left;
+    text-align:center;
+    font-size: 15px;
+    font-family: 'Droid Sans';
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+}
